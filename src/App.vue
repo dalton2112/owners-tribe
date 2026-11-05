@@ -7,6 +7,7 @@
   <NewsletterBand />
   <SiteFooter />
   <EpisodeModal v-if="modal?.type === 'episode'" :key="'e' + modal.item.id" :ep="modal.item" />
+  <YouTubeVideoModal v-else-if="modal?.type === 'video'" :key="'v' + modal.item.id" :video="modal.item" />
   <OfferModal v-else-if="modal" :key="modal.type + modal.item.id" :type="modal.type" :item="modal.item" />
   <ToastMessage />
 </template>
@@ -19,6 +20,7 @@ import SiteFooter from '@/components/SiteFooter.vue';
 import NewsletterBand from '@/components/NewsletterBand.vue';
 import EpisodeModal from '@/components/EpisodeModal.vue';
 import OfferModal from '@/components/OfferModal.vue';
+import YouTubeVideoModal from '@/components/YouTubeVideoModal.vue';
 import ToastMessage from '@/components/ToastMessage.vue';
 import { useModal } from '@/composables/useModal';
 import { ui } from '@/composables/useUi';

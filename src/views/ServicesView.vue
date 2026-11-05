@@ -3,7 +3,7 @@
     <ServiceHero
       hook="One call gets it done."
       h1="Start, scale, or sell your business with one call"
-      lede="I’m Adam Bell, the Owner’s Guy. Tell me where your business is, and I bring in the right team: lending, legal, financial planning, IT, and marketing, all through one point of contact."
+      lede="I’m Adam Bell, Tell me where your business is, and I bring in the right team: lending, legal, financial planning, IT, and marketing, all through one point of contact."
     >
       <p class="door-prompt">Where are you today?</p>
       <DoorCards />
@@ -26,7 +26,7 @@
       class="services-cross"
       :items="[
         { to: '/courses', kicker: 'Rather learn it yourself?', title: 'Courses for business owners', cta: 'See the courses' },
-        { to: '/about', kicker: 'Who’s your guy?', title: 'Meet Adam Bell, the Owner’s Guy', cta: 'About Adam' }
+        { to: '/about', kicker: 'Who’s your guy?', title: 'Meet Adam Bell', cta: 'About Adam' }
       ]"
     />
   </div>

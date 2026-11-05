@@ -2,19 +2,19 @@
 export const CONFIG = {
   // Channel and profile links. An empty link shows a "coming soon" message when clicked.
   links: {
-    youtube: '',
-    spotify: '',
-    apple: '',
-    iheart: '',
-    amazon: '',
-    instagram: '',
-    linkedin: '',
-    facebook: ''
+    youtube: 'https://www.youtube.com/@TheOwnersTribe',
+    spotify: 'https://open.spotify.com/show/1zklAyb2n7dHnJ8e6zREcp',
+    apple: "https://music.amazon.co.uk/.../c19e58e9.../the-owner's-tribe",
+    iheart: 'https://podcasts.apple.com/.../the-owners-tribe/id6826900776',
+    amazon: 'https://www.iheart.com/.../269-the-owners-tribe-348452083/',
+    instagram: 'https://www.instagram.com/theownerstribe/',
+    linkedin: 'https://www.linkedin.com/in/adam-bell-cpa-mba-421aa036a/',
+    facebook: 'https://www.facebook.com/profile.php?id=61595995987457'
   },
 
   // Calendly scheduling link, for example https://calendly.com/your-name/strategy-call
   // When set, the Contact page shows the live Calendly calendar instead of the built-in request form.
-  calendlyUrl: '',
+  calendlyUrl: 'https://calendly.com/adam-bell-acb-logistics',
 
   // Services: one Calendly event type per path, so Adam knows what kind of call it is before it starts.
   calendly: {

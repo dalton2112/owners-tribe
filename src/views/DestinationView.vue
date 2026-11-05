@@ -73,7 +73,7 @@ const page = PAGES[props.pageKey];
 // The buying question answer passed to Calendly: yes, no, or maybe. The Sell page has no question.
 const answer = props.maybe ? 'maybe' : page.answer;
 
-const ABOUT_LINK = { to: '/about', kicker: 'Who’s your guy?', title: 'Meet Adam Bell, the Owner’s Guy', cta: 'About Adam' };
+const ABOUT_LINK = { to: '/about', kicker: 'Who’s your guy?', title: 'Meet Adam Bell', cta: 'About Adam' };
 const SELL_LINK = { to: '/sell', kicker: 'Planning to sell one day?', title: 'See how I quarterback a sale', cta: 'Selling your business' };
 const SCALE_LINK = { to: '/scale', kicker: 'Not ready to sell yet?', title: 'Grow the business first', cta: 'Scaling your business' };
 const SERVICES_LINK = { to: '/services', kicker: 'Somewhere else?', title: 'See all three: Start, Scale, Sell', cta: 'All services' };
