@@ -232,7 +232,7 @@ input[aria-invalid="true"], textarea[aria-invalid="true"] { border-color: var(--
 .tquote figcaption {
   margin-top: auto; font-weight: 700; font-size: 0.92rem; color: var(--muted); padding-top: 16px; border-top: 2px solid var(--gold); width: fit-content;
 }
-.page-hero { padding-block: clamp(56px, 7vw, 96px); }
+.page-hero { padding-block: clamp(56px, 2vw, 96px); }
 .page-hero h1 { max-width: 18ch; font-size: clamp(2.2rem, 3.8vw + 0.7rem, 3.75rem); }
 .player-ph {
   position: relative; display: grid; place-items: center; width: 100%; aspect-ratio: 16 / 9;

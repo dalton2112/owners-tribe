@@ -8,7 +8,8 @@
           <p>{{ text }}</p>
         </div>
         <div class="cta-row">
-          <RouterLink class="btn btn-gold btn-lg" :to="BOOK_CALL">{{ primary }}</RouterLink>
+          <!-- <RouterLink class="btn btn-gold btn-lg" :to="BOOK_CALL">{{ primary }}</RouterLink> -->
+          <a class="btn btn-gold btn-lg" href="https://calendly.com/adam-bell-acb-logistics" target="_blank" rel="noopener noreferrer">{{ primary }}</a>
         </div>
       </div>
     </div>

@@ -11,7 +11,8 @@
             strategies, financial insights, and leadership lessons that help companies thrive.
           </p>
           <div class="cta-row">
-            <RouterLink class="btn btn-gold btn-lg" :to="BOOK_CALL">Book a Strategy Call</RouterLink>
+            <!-- <RouterLink class="btn btn-gold btn-lg" :to="BOOK_CALL">Book a Strategy Call</RouterLink> -->
+            <a class="btn btn-gold btn-lg" href="https://calendly.com/adam-bell-acb-logistics" target="_blank" rel="noopener noreferrer">Book a Strategy Call</a>
             <RouterLink class="btn btn-ghost btn-lg" :to="{ name: 'podcast' }">
               <AppIcon name="play" :size="16" />Watch the Podcast
             </RouterLink>
@@ -91,15 +92,18 @@
         <div class="guests-strip">
           <h3>Featured guests</h3>
           <div class="guest-row">
-            <RouterLink
+            <div
               v-for="g in guests"
               :key="g.id"
               class="guest-chip"
               :to="modalLink('episode', firstEpisodeWith(g.id).id)"
             >
-              <span class="avatar">{{ g.initials }}</span>
+              <span class="avatar">
+                <img v-if="g.avatar" :src="g.avatar" :alt="`Photo of ${g.name}`" />
+              <template v-else>{{ g.initials }}</template>
+              </span>
               <span><strong>{{ g.name }}</strong><small>{{ g.role }}</small></span>
-            </RouterLink>
+            </div>
           </div>
         </div>
         <div class="more-row">
@@ -373,4 +377,5 @@ const featuredProducts = PRODUCTS.filter((p) => !p.free).slice(0, 3);
 .quote-figure { margin: 0; }
 .big-quote p { margin: 0; }
 .fit-cta { margin-top: 0; }
+.avatar img { width: 100%; height: 100%; border-radius: inherit; object-fit: cover; aspect-ratio: 1 / 1 }
 </style>

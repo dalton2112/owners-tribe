@@ -17,7 +17,8 @@
       <div>
         <h3>Get started</h3>
         <ul>
-          <li><RouterLink :to="BOOK_CALL">Book a Strategy Call</RouterLink></li>
+          <!-- <li><RouterLink :to="BOOK_CALL">Book a Strategy Call</RouterLink></li> -->
+          <li><a href="https://calendly.com/adam-bell-acb-logistics" target="_blank" rel="noopener noreferrer">Book a Strategy Call</a></li>
           <li><RouterLink :to="{ name: 'courses' }">Courses</RouterLink></li>
           <li><RouterLink :to="{ name: 'resources' }">Templates and tools</RouterLink></li>
           <li><a href="#join" @click.prevent="toJoin">Join The Tribe</a></li>

@@ -44,7 +44,7 @@ const routes = [
   { path: '/consulting', redirect: { name: 'services' } },
   { path: '/success-stories', redirect: { name: 'testimonies' } },
   { path: '/blog', redirect: { name: 'resources' } },
-  { path: '/contact', name: 'contact', component: () => import('@/views/ContactView.vue'), meta: { title: 'Contact' } },
+  // { path: '/contact', name: 'contact', component: () => import('@/views/ContactView.vue'), meta: { title: 'Contact' } },
   { path: '/:pathMatch(.*)*', name: 'not-found', component: () => import('@/views/NotFoundView.vue'), meta: { title: 'Page not found' } }
 ];
 
