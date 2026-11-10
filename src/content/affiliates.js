@@ -22,7 +22,7 @@ export const AFFILIATE_GROUPS = [
   { category: 'Strategic Partners', icon: 'layers', items: [
     { name: 'Thomas Whalen', image: thomasWhalenLogo, imageType: 'person', desc: 'Tax lawyer', url: 'https://business-advocates.com/' },
     { name: 'Anne Ertel-Sawasky', image: anneErtelSawaskyLogo, imageType: 'person', desc: 'CEO, ChFC, RICP, Attorney (WI)', url: 'https://quovadis-solutions.com/' },
-    { name: 'Sanyu Labugo', image: sanyuLubogoLogo, imageType: 'person', desc: 'Founder', url: 'https://www.thelubogocreative.com/' }
+    { name: 'Sanyu Lubogo', image: sanyuLubogoLogo, imageType: 'person', desc: 'Founder', url: 'https://www.thelubogocreative.com/' }
   ] },
   // { category: 'Podcasting and content', icon: 'mic', items: [
   //   { name: 'Riverside', desc: 'Studio-quality remote recording for podcasts and video.', url: '' },

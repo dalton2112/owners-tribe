@@ -24,7 +24,7 @@ export const SITE = {
   // ],
   footerNav: [
     { id: 'home', label: 'Home' }, { id: 'podcast', label: 'Podcast' }, { id: 'services', label: 'Services' },
-    { id: 'courses', label: 'Courses' }, { id: 'testimonies', label: 'Testimonies' }, { id: 'about', label: 'About Adam' },
+    { id: 'courses', label: 'Courses' }, { id: 'testimonies', label: 'Testimonies' }, { id: 'about', label: 'About' },
     { id: 'resources', label: 'Resources' }
   ],
   categories: ['Leadership', 'Finance', 'Entrepreneurship', 'Operations', 'Sales & Marketing', 'Business Growth', 'Exit Planning', 'Team Building'],
