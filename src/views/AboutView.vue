@@ -2,11 +2,8 @@
   <div>
     <section class="page-hero band grain">
       <div class="wrap about-hero">
-        <!-- Replace this placeholder with Adam's photo, for example <img src="..." alt="Adam Bell"> -->
         <figure class="headshot">
-          <img class="hs-crest" :src="crest" alt="" />
-          <span class="hs-mono" aria-hidden="true">AB</span>
-          <figcaption>Headshot placeholder</figcaption>
+          <img class="hs-photo" :src="adamBell" alt="Adam Bell" />
         </figure>
         <div>
           <h1>Meet Adam Bell</h1>
@@ -21,7 +18,7 @@
           </p>
           <ul class="creds">
             <li>Founder and host, The Owner’s Tribe</li>
-            <li>Fractional CFO advisor</li>
+            <!-- <li>Fractional CFO advisor</li> -->
           </ul>
           <div class="cta-row">
             <!-- <RouterLink class="btn btn-gold btn-lg" :to="BOOK_CALL">Book a Strategy Call</RouterLink> -->
@@ -115,7 +112,7 @@
 <script setup>
 import AppIcon from '@/components/AppIcon.vue';
 import SectionHead from '@/components/SectionHead.vue';
-import crest from '@/assets/crest.webp';
+import adamBell from '@/assets/adam-bell.webp';
 import { FOCUS_AREAS, SITE } from '@/content/site';
 // import { BOOK_CALL } from '@/router/links';
 </script>
@@ -130,11 +127,7 @@ import { FOCUS_AREAS, SITE } from '@/content/site';
   display: grid; place-items: center; max-width: 420px; width: 100%;
   background: linear-gradient(165deg, #1A3D63, #0A1C33); border: 1px solid rgba(255, 255, 255, 0.12);
 }
-.hs-crest { position: absolute; width: 115%; right: -38%; bottom: -24%; opacity: 0.16; }
-.hs-mono {
-  position: relative; font-size: clamp(4rem, 9vw, 6.5rem); font-weight: 900; font-stretch: 125%; color: var(--cream); letter-spacing: 0.02em;
-}
-.headshot figcaption { position: absolute; left: 22px; bottom: 18px; font-size: 0.82rem; color: #A9B6C7; }
+.hs-photo { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 22%; }
 .creds { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; padding: 0; margin: 26px 0 0; }
 .creds li {
   padding: 7px 14px; border-radius: 999px; font-size: 0.88rem; font-weight: 700; color: #FFFFFF;
@@ -172,6 +165,6 @@ import { FOCUS_AREAS, SITE } from '@/content/site';
 .mission blockquote { margin: 0; }
 .mission blockquote p {
   font-family: var(--serif); font-style: italic; font-weight: 400; color: var(--heading); margin: 0;
-  font-size: clamp(1.7rem, 2.6vw + 0.8rem, 3rem); line-height: 1.18; max-width: 30ch;
+  font-size: clamp(1.7rem, 2.6vw + 0.8rem, 3rem); line-height: 1.18; max-width: 100%;
 }
 </style>

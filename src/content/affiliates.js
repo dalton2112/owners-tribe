@@ -28,9 +28,9 @@ export const AFFILIATE_GROUPS = [
   //   { name: 'Riverside', desc: 'Studio-quality remote recording for podcasts and video.', url: '' },
   //   { name: 'Canva', desc: 'Easy design for social posts, slides, and marketing.', url: '' }
   // ] },
-  { category: 'Books we recommend', icon: 'book', items: [
-    { name: 'Starting a Business the right way', by: 'Adam Bell', desc: 'A Field Guide to Building on Solid Ground', url: '' },
-    { name: 'Scalling a Business without Losing Control', by: 'Adam Bell', desc: 'A Field Guide to Growing on Numbers You Can Trust', url: '' },
-    { name: 'Selling a Business for what it\'s worth', by: 'Adam Bell', desc: 'A Field Guide to Preparing, Valuing, and Exiting Your Business', url: '' }
+  { category: 'Dive Into My Library', icon: 'book', items: [
+    { name: 'Starting a Business the right way', by: 'Adam Bell', desc: 'A Field Guide to Building on Solid Ground', url: 'https://kdp.amazon.com/en_US/' },
+    { name: 'Scalling a Business without Losing Control', by: 'Adam Bell', desc: 'A Field Guide to Growing on Numbers You Can Trust', url: 'https://kdp.amazon.com/en_US/' },
+    { name: 'Selling a Business for what it\'s worth', by: 'Adam Bell', desc: 'A Field Guide to Preparing, Valuing, and Exiting Your Business', url: 'https://kdp.amazon.com/en_US/' }
   ] }
 ];

@@ -4,10 +4,10 @@
       title="Resources for Business Owners"
       lede="Templates and workbooks from The Owner’s Tribe, plus the tools and books we recommend for running a stronger business."
     >
-      <div class="cta-row">
+      <!-- <div class="cta-row">
         <RouterLink class="btn btn-gold" :to="{ hash: '#shop' }"><AppIcon name="tag" :size="18" />Templates and workbooks</RouterLink>
         <RouterLink class="btn btn-ghost" :to="{ hash: '#tools' }"><AppIcon name="star" :size="18" />Tools we recommend</RouterLink>
-      </div>
+      </div> -->
     </PageHero>
 
     <!-- <section id="shop" class="section">

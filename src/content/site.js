@@ -7,8 +7,7 @@ export const FOCUS_AREAS = [
 
 export const SITE = {
   primaryNav: [
-    { id: 'podcast', label: 'Podcast' }, { id: 'services', label: 'Services' }, { id: 'courses', label: 'Courses' },
-    { id: 'testimonies', label: 'Testimonies' }, { id: 'about', label: 'About Adam' }, { id: 'resources', label: 'Resources' }
+    { id: 'about', label: 'About' }, { id: 'podcast', label: 'Podcast' }, { id: 'services', label: 'Services' }, { id: 'courses', label: 'Courses' }, { id: 'resources', label: 'Resources' }, { id: 'testimonies', label: 'Testimonies' }
   ],
   // mobileNav: [
   //   { id: 'home', label: 'Home' }, { id: 'podcast', label: 'Podcast' }, { id: 'services', label: 'Services' },
@@ -16,9 +15,7 @@ export const SITE = {
   //   { id: 'resources', label: 'Resources' }, { id: 'contact', label: 'Contact' }
   // ],
   mobileNav: [
-    { id: 'home', label: 'Home' }, { id: 'podcast', label: 'Podcast' }, { id: 'services', label: 'Services' },
-    { id: 'courses', label: 'Courses' }, { id: 'testimonies', label: 'Testimonies' }, { id: 'about', label: 'About Adam' },
-    { id: 'resources', label: 'Resources' }
+    { id: 'home', label: 'Home' }, { id: 'about', label: 'About' }, { id: 'podcast', label: 'Podcast' }, { id: 'services', label: 'Services' }, { id: 'courses', label: 'Courses' }, { id: 'resources', label: 'Resources' }, { id: 'testimonies', label: 'Testimonies' }
   ],
   // footerNav: [
   //   { id: 'home', label: 'Home' }, { id: 'podcast', label: 'Podcast' }, { id: 'services', label: 'Services' },

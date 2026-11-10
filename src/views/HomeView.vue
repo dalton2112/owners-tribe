@@ -1,7 +1,8 @@
 <template>
   <div>
     <section class="hero band grain">
-      <div class="wrap hero-grid">
+      <!-- <div class="wrap hero-grid"> -->
+        <div class="wrap">
         <div class="hero-copy">
           <p class="hero-quote">Business ownership shouldn’t feel lonely.</p>
           <h1>Where Business Owners Gain Clarity, Confidence, and Growth</h1>
@@ -378,4 +379,7 @@ const featuredProducts = PRODUCTS.filter((p) => !p.free).slice(0, 3);
 .big-quote p { margin: 0; }
 .fit-cta { margin-top: 0; }
 .avatar img { width: 100%; height: 100%; border-radius: inherit; object-fit: cover; aspect-ratio: 1 / 1 }
+</style>
+<style scoped>
+.lede { max-width: 100%; }
 </style>
