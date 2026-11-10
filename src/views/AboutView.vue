@@ -24,13 +24,14 @@
             <li>Fractional CFO advisor</li>
           </ul>
           <div class="cta-row">
-            <RouterLink class="btn btn-gold btn-lg" :to="BOOK_CALL">Book a Strategy Call</RouterLink>
+            <!-- <RouterLink class="btn btn-gold btn-lg" :to="BOOK_CALL">Book a Strategy Call</RouterLink> -->
+            <a class="btn btn-gold btn-lg" href="https://calendly.com/adam-bell-acb-logistics" target="_blank" rel="noopener noreferrer">Book a Strategy Call</a>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section">
+    <!-- <section class="section">
       <div class="wrap bio-grid">
         <div>
           <h2>Executive Biography</h2>
@@ -49,7 +50,7 @@
           </p>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section class="section section-alt">
       <div class="wrap">
@@ -69,7 +70,7 @@
       </div>
     </section>
 
-    <section class="section">
+    <!-- <section class="section">
       <div class="wrap host-grid">
         <div>
           <h2>Podcast Host</h2>
@@ -94,7 +95,7 @@
           </ol>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section class="mission section-alt">
       <div class="wrap">
@@ -116,7 +117,7 @@ import AppIcon from '@/components/AppIcon.vue';
 import SectionHead from '@/components/SectionHead.vue';
 import crest from '@/assets/crest.webp';
 import { FOCUS_AREAS, SITE } from '@/content/site';
-import { BOOK_CALL } from '@/router/links';
+// import { BOOK_CALL } from '@/router/links';
 </script>
 
 <style>

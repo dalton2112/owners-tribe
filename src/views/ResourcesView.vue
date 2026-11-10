@@ -10,7 +10,7 @@
       </div>
     </PageHero>
 
-    <section id="shop" class="section">
+    <!-- <section id="shop" class="section">
       <div class="wrap">
         <SectionHead
           title="From The Owner’s Tribe"
@@ -20,7 +20,7 @@
           <ProductCard v-for="p in PRODUCTS" :key="p.id" :product="p" />
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section id="tools" class="section section-alt">
       <div class="wrap">
@@ -28,11 +28,19 @@
           title="Tools We Recommend"
           text="The software, services, and books we point owners to most often."
         />
-        <p class="disclosure"><AppIcon name="tag" :size="18" /><span>{{ AFFILIATE_DISCLOSURE }}</span></p>
+        <!-- <p class="disclosure"><AppIcon name="tag" :size="18" /><span>{{ AFFILIATE_DISCLOSURE }}</span></p> -->
         <div v-for="group in AFFILIATE_GROUPS" :key="group.category" class="aff-group">
           <h3 class="aff-heading"><span class="svc-icon"><AppIcon :name="group.icon" :size="22" /></span>{{ group.category }}</h3>
           <div class="aff-grid">
             <article v-for="tool in group.items" :key="tool.name" class="aff-card">
+              <img
+                v-if="tool.image"
+                class="aff-logo"
+                :class="{ 'aff-logo--person': tool.imageType === 'person' }"
+                :src="tool.image"
+                :alt="tool.imageType === 'person' ? tool.name : ''"
+                loading="lazy"
+              />
               <h4>{{ tool.name }}</h4>
               <p v-if="tool.by" class="aff-by">by {{ tool.by }}</p>
               <p>{{ tool.desc }}</p>
@@ -89,6 +97,14 @@ function guard(event, tool) {
 .aff-card {
   display: flex; flex-direction: column; gap: 6px; padding: 22px; border-radius: 16px;
   background: var(--surface); border: 1px solid var(--border);
+}
+.aff-logo {
+  width: 100%; height: 64px; margin-bottom: 8px; padding: 8px;
+  border-radius: 8px; background: #fff; object-fit: contain;
+}
+.aff-logo--person {
+  flex: none; width: 96px; height: 96px; margin: 0 auto 8px; padding: 0;
+  border-radius: 50%; object-fit: cover;
 }
 .aff-card h4 { font-size: 1.08rem; font-stretch: 106%; }
 .aff-card p { margin: 0; color: var(--muted); font-size: 0.95rem; }

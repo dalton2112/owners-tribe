@@ -23,7 +23,7 @@
           </div>
         </div>
 
-        <div class="hero-visual">
+        <!-- <div class="hero-visual">
           <div class="studio">
             <img
               class="studio-crest"
@@ -60,7 +60,7 @@
               </span>
             </RouterLink>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
 
