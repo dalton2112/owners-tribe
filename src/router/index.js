@@ -33,6 +33,7 @@ function serviceRoutes() {
 
 const routes = [
   { path: '/', name: 'home', component: HomeView, meta: { title: 'The Owner’s Tribe with Adam Bell' } },
+  { path: '/book', name: 'book', component: () => import('@/views/BookingView.vue'), meta: { title: 'Book a Strategy Call', noindex: true } },
   { path: '/podcast', name: 'podcast', component: () => import('@/views/PodcastView.vue'), meta: { title: 'Podcast' } },
   { path: '/services', name: 'services', component: () => import('@/views/ServicesView.vue'), meta: { title: 'Services: Start, Scale, or Sell Your Business', description: 'One call gets you a team for starting, scaling, or selling your business: lending, legal, financial planning, IT, and marketing.', section: 'services' } },
   ...serviceRoutes(),

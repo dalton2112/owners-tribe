@@ -44,7 +44,7 @@ export const CONFIG = {
 
   // Where form submissions are sent as JSON (for example a Formspree, Zapier, Make, or CRM webhook URL).
   // When empty, forms show their confirmation without sending anything, which is handy for testing.
-  formEndpoint: '',
+  formEndpoint: 'https://formspree.io/f/xdegpwre',
 
   // Public contact email. This is a stand-in until the real address is set.
   email: 'info@theownerstribe.com',

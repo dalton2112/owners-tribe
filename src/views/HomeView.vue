@@ -12,8 +12,7 @@
             strategies, financial insights, and leadership lessons that help companies thrive.
           </p>
           <div class="cta-row">
-            <!-- <RouterLink class="btn btn-gold btn-lg" :to="BOOK_CALL">Book a Strategy Call</RouterLink> -->
-            <a class="btn btn-gold btn-lg" href="https://calendly.com/adam-bell-acb-logistics" target="_blank" rel="noopener noreferrer">Book a Strategy Call</a>
+            <RouterLink class="btn btn-gold btn-lg" :to="BOOK_CALL">Book a Strategy Call</RouterLink>
             <RouterLink class="btn btn-ghost btn-lg" :to="{ name: 'podcast' }">
               <AppIcon name="play" :size="16" />Watch the Podcast
             </RouterLink>

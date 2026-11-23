@@ -21,8 +21,7 @@
             <!-- <li>Fractional CFO advisor</li> -->
           </ul>
           <div class="cta-row">
-            <!-- <RouterLink class="btn btn-gold btn-lg" :to="BOOK_CALL">Book a Strategy Call</RouterLink> -->
-            <a class="btn btn-gold btn-lg" href="https://calendly.com/adam-bell-acb-logistics" target="_blank" rel="noopener noreferrer">Book a Strategy Call</a>
+            <RouterLink class="btn btn-gold btn-lg" :to="BOOK_CALL">Book a Strategy Call</RouterLink>
           </div>
         </div>
       </div>
@@ -114,7 +113,7 @@ import AppIcon from '@/components/AppIcon.vue';
 import SectionHead from '@/components/SectionHead.vue';
 import adamBell from '@/assets/adam-bell.webp';
 import { FOCUS_AREAS, SITE } from '@/content/site';
-// import { BOOK_CALL } from '@/router/links';
+import { BOOK_CALL } from '@/router/links';
 </script>
 
 <style>

@@ -7,8 +7,7 @@
           {{ item.label }}
         </RouterLink>
       </nav>
-      <!-- <RouterLink class="btn btn-gold btn-sm header-cta" :to="BOOK_CALL">Book a Strategy Call</RouterLink> -->
-      <a class="btn btn-gold btn-sm header-cta" href="https://calendly.com/adam-bell-acb-logistics" target="_blank" rel="noopener noreferrer">Book a Strategy Call</a>
+      <RouterLink class="btn btn-gold btn-sm header-cta" :to="BOOK_CALL">Book a Strategy Call</RouterLink>
       <button
         class="menu-toggle"
         type="button"
@@ -26,8 +25,7 @@
           <RouterLink v-for="item in SITE.mobileNav" :key="item.id" :to="{ name: item.id }" :class="{ active: isActive(item.id) }">
             {{ item.label }}
           </RouterLink>
-          <!-- <RouterLink class="btn btn-gold" :to="BOOK_CALL">Book a Strategy Call</RouterLink> -->
-          <a class="btn btn-gold" href="https://calendly.com/adam-bell-acb-logistics" target="_blank" rel="noopener noreferrer">Book a Strategy Call</a>
+          <RouterLink class="btn btn-gold" :to="BOOK_CALL">Book a Strategy Call</RouterLink>
         </nav>
       </div>
     </div>
