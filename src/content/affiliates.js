@@ -2,7 +2,7 @@ import quickBooksLogo from '@/assets/quickbooks.png';
 import rampLogo from '@/assets/ramp.png';
 import paychexLogo from '@/assets/paychex.png';
 import westpacLogo from '@/assets/westpac.png';
-import thomasWhalenLogo from '@/assets/thomas-whalen.webp';
+// import thomasWhalenLogo from '@/assets/thomas-whalen.webp';
 import anneErtelSawaskyLogo from '@/assets/anne-ertel-sawasky.webp';
 import sanyuLubogoLogo from '@/assets/sanyu-lubogo.webp';
 import joeElginLogo from '@/assets/joe-elgin.webp';
@@ -22,7 +22,7 @@ export const AFFILIATE_GROUPS = [
     { name: 'Westpac', image: westpacLogo, desc: 'Automates paying bills and collecting from customers.', url: 'https://www.westpacwealth.com/hawaii' }
   ] },
   { category: 'Strategic Partners', icon: 'layers', items: [
-    { name: 'Thomas Whalen', image: thomasWhalenLogo, imageType: 'person', desc: 'Tax lawyer', url: 'https://business-advocates.com/' },
+    // { name: 'Thomas Whalen', image: thomasWhalenLogo, imageType: 'person', desc: 'Tax lawyer', url: 'https://business-advocates.com/' },
     { name: 'Anne Ertel-Sawasky', image: anneErtelSawaskyLogo, imageType: 'person', desc: 'CEO, ChFC, RICP, Attorney (WI)', url: 'https://quovadis-solutions.com/' },
     { name: 'Sanyu Lubogo', image: sanyuLubogoLogo, imageType: 'person', desc: 'Founder', url: 'https://www.thelubogocreative.com/' },
     { name: 'Joe Elgin', image: joeElginLogo, imageType: 'person', desc: 'Founder', url: 'https://mauitechsupport.com/' },
