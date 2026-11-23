@@ -37,12 +37,12 @@ const routes = [
   { path: '/services', name: 'services', component: () => import('@/views/ServicesView.vue'), meta: { title: 'Services: Start, Scale, or Sell Your Business', description: 'One call gets you a team for starting, scaling, or selling your business: lending, legal, financial planning, IT, and marketing.', section: 'services' } },
   ...serviceRoutes(),
   { path: '/courses', name: 'courses', component: () => import('@/views/CoursesView.vue'), meta: { title: 'Courses' } },
-  { path: '/testimonies', name: 'testimonies', component: () => import('@/views/TestimoniesView.vue'), meta: { title: 'Testimonies' } },
+  // { path: '/testimonies', name: 'testimonies', component: () => import('@/views/TestimoniesView.vue'), meta: { title: 'Testimonies' } },
   { path: '/about', name: 'about', component: () => import('@/views/AboutView.vue'), meta: { title: 'About Adam Bell' } },
   { path: '/resources', name: 'resources', component: () => import('@/views/ResourcesView.vue'), meta: { title: 'Resources' } },
   // Old addresses from earlier versions of the site
   { path: '/consulting', redirect: { name: 'services' } },
-  { path: '/success-stories', redirect: { name: 'testimonies' } },
+  // { path: '/success-stories', redirect: { name: 'testimonies' } },
   { path: '/blog', redirect: { name: 'resources' } },
   // { path: '/contact', name: 'contact', component: () => import('@/views/ContactView.vue'), meta: { title: 'Contact' } },
   { path: '/:pathMatch(.*)*', name: 'not-found', component: () => import('@/views/NotFoundView.vue'), meta: { title: 'Page not found' } }

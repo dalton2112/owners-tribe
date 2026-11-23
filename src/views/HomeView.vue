@@ -65,7 +65,7 @@
       </div>
     </section>
 
-    <section class="section">
+    <!-- <section class="section">
       <div class="wrap">
         <SectionHead
           title="Business Advice You Can Actually Use"
@@ -111,7 +111,7 @@
           <RouterLink class="btn btn-outline" :to="{ name: 'podcast' }">Browse all episodes</RouterLink>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section class="section section-alt">
       <div class="wrap about-split">
@@ -136,6 +136,28 @@
           </div>
         </div>
       </div>
+      <!-- <div class="wrap">
+        <div class="guests-strip">
+          <h3>Featured guests</h3>
+          <div class="guest-row">
+            <div
+              v-for="g in guests"
+              :key="g.id"
+              class="guest-chip"
+              :to="modalLink('episode', firstEpisodeWith(g.id).id)"
+            >
+              <span class="avatar">
+                <img v-if="g.avatar" :src="g.avatar" :alt="`Photo of ${g.name}`" />
+              <template v-else>{{ g.initials }}</template>
+              </span>
+              <span><strong>{{ g.name }}</strong><small>{{ g.role }}</small></span>
+            </div>
+          </div>
+        </div>
+        <div class="more-row">
+          <RouterLink class="btn btn-outline" :to="{ name: 'podcast' }">Browse all episodes</RouterLink>
+        </div>
+      </div> -->
     </section>
 
     <section class="section">
@@ -165,7 +187,7 @@
       </div>
     </section>
 
-    <section class="section band grain">
+    <!-- <section class="section band grain">
       <div class="wrap lead-feature">
         <ResourcePaper :res="FREE_CHECKLIST" />
         <div>
@@ -181,9 +203,9 @@
           </ul>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <section class="section">
+    <!-- <section class="section">
       <div class="wrap">
         <SectionHead title="What Owners Say">
           <p><RouterLink class="text-link" :to="{ name: 'testimonies' }">Read more testimonies</RouterLink></p>
@@ -195,9 +217,9 @@
           </figure>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <section class="section section-alt">
+    <!-- <section class="section section-alt">
       <div class="wrap">
         <SectionHead title="Templates and Tools for Owners">
           <p><RouterLink class="text-link" :to="{ name: 'resources' }">See all resources</RouterLink></p>
@@ -206,7 +228,7 @@
           <ProductCard v-for="p in featuredProducts" :key="p.id" :product="p" />
         </div>
       </div>
-    </section>
+    </section> -->
   </div>
 </template>
 

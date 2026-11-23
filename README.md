@@ -33,7 +33,7 @@ Each component keeps its own styles in a `<style>` block at the bottom of its `.
 
 ## Before launch
 
-1. **Links and email.** Fill in `src/config.js`: YouTube, Spotify, Apple Podcasts, iHeartRadio, Amazon Music, Instagram, LinkedIn, Facebook, and the contact email (hello@theownerstribe.com is a stand-in). Empty links show a "coming soon" message.
+1. **Links and email.** Fill in `src/config.js`: YouTube, Spotify, Apple Podcasts, iHeartRadio, Amazon Music, Instagram, LinkedIn, Facebook, and the contact email (info@theownerstribe.com is a stand-in). Empty links show a "coming soon" message.
 2. **Forms.** Set `formEndpoint` in `src/config.js` to a URL that accepts JSON, for example a Formspree form, a Zapier or Make webhook, or your CRM. Every form posts `{ form, page, submittedAt, ...fields }`, where `form` is `newsletter`, `download:<id>`, `waitlist:<id>`, `contact`, or `discovery-call`. Until it’s set, forms show their confirmation and log the submission to the browser console only.
 3. **Calendly.** Set `calendlyUrl` to show the live Calendly calendar on the Contact page instead of the built-in booking request form.
 4. **YouTube video library.** Set `VITE_YOUTUBE_API_KEY` and `VITE_YOUTUBE_CHANNEL_ID` in `.env` to load the channel’s latest public videos on the Podcast page. Restrict the API key to the YouTube Data API v3 and your site’s referrers. The sample episode details in `src/content/episodes.js` are still used by related course and guest links.

@@ -6,8 +6,11 @@ export const FOCUS_AREAS = [
 ];
 
 export const SITE = {
+  // primaryNav: [
+  //   { id: 'about', label: 'About' }, { id: 'podcast', label: 'Podcast' }, { id: 'services', label: 'Services' }, { id: 'courses', label: 'Courses' }, { id: 'resources', label: 'Resources' }, { id: 'testimonies', label: 'Testimonies' }
+  // ],
   primaryNav: [
-    { id: 'about', label: 'About' }, { id: 'podcast', label: 'Podcast' }, { id: 'services', label: 'Services' }, { id: 'courses', label: 'Courses' }, { id: 'resources', label: 'Resources' }, { id: 'testimonies', label: 'Testimonies' }
+    { id: 'about', label: 'About' }, { id: 'podcast', label: 'Podcast' }, { id: 'services', label: 'Services' }, { id: 'courses', label: 'Courses' }, { id: 'resources', label: 'Resources' }
   ],
   // mobileNav: [
   //   { id: 'home', label: 'Home' }, { id: 'podcast', label: 'Podcast' }, { id: 'services', label: 'Services' },
@@ -15,7 +18,7 @@ export const SITE = {
   //   { id: 'resources', label: 'Resources' }, { id: 'contact', label: 'Contact' }
   // ],
   mobileNav: [
-    { id: 'home', label: 'Home' }, { id: 'about', label: 'About' }, { id: 'podcast', label: 'Podcast' }, { id: 'services', label: 'Services' }, { id: 'courses', label: 'Courses' }, { id: 'resources', label: 'Resources' }, { id: 'testimonies', label: 'Testimonies' }
+    { id: 'home', label: 'Home' }, { id: 'about', label: 'About' }, { id: 'podcast', label: 'Podcast' }, { id: 'services', label: 'Services' }, { id: 'courses', label: 'Courses' }, { id: 'resources', label: 'Resources' }
   ],
   // footerNav: [
   //   { id: 'home', label: 'Home' }, { id: 'podcast', label: 'Podcast' }, { id: 'services', label: 'Services' },
@@ -24,7 +27,7 @@ export const SITE = {
   // ],
   footerNav: [
     { id: 'home', label: 'Home' }, { id: 'podcast', label: 'Podcast' }, { id: 'services', label: 'Services' },
-    { id: 'courses', label: 'Courses' }, { id: 'testimonies', label: 'Testimonies' }, { id: 'about', label: 'About' },
+    { id: 'courses', label: 'Courses' }, { id: 'about', label: 'About' },
     { id: 'resources', label: 'Resources' }
   ],
   categories: ['Leadership', 'Finance', 'Entrepreneurship', 'Operations', 'Sales & Marketing', 'Business Growth', 'Exit Planning', 'Team Building'],

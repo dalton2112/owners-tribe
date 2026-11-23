@@ -5,6 +5,8 @@ export const PLATFORMS = {
   iheart: { name: 'iHeartRadio', verb: 'Listen on' },
   amazon: { name: 'Amazon Music', verb: 'Listen on' },
   instagram: { name: 'Instagram', verb: 'Follow on' },
+  tiktok: { name: 'TikTok', verb: 'Follow on' },
+  twitter: { name: 'X (Twitter)', verb: 'Follow on' },
   linkedin: { name: 'LinkedIn', verb: 'Follow on' },
   facebook: { name: 'Facebook', verb: 'Follow on' }
 };

@@ -30,6 +30,8 @@ export const ICONS = {
   spotify: '<circle cx="12" cy="12" r="9.5"/><path d="M7.2 9.6c3.4-1 6.9-.7 9.8.9M7.7 12.6c2.8-.7 5.6-.5 8 .8M8.2 15.5c2.2-.5 4.3-.3 6.1.6"/>',
   iheart: '<path d="M12 20s-7.5-4.6-7.5-10.2A4.2 4.2 0 0 1 12 7.3a4.2 4.2 0 0 1 7.5 2.5C19.5 15.4 12 20 12 20z"/><path d="M8.5 12h2l1.2-2.4 1.6 4.4 1.2-2h1.5"/>',
   instagram: '<rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="0.6" fill="currentColor"/>',
+  tiktok: '<path d="M15.5 3h3.2c.2 2 1.4 3.7 3.3 4.5v3.3a9.2 9.2 0 0 1-3.3-1.2v6.2a6.3 6.3 0 1 1-6.3-6.3c.4 0 .8 0 1.2.1v3.5a2.9 2.9 0 1 0 1.9 2.7z"/>',
+  twitter: '<path d="M18.9 1.2h3.7l-8 9.2 9.4 12.5h-7.4l-5.8-7.6-6.6 7.6H.5l8.6-9.8L0 1.2h7.6l5.2 6.9zm-1.3 19.5h2L6.5 3.2h-2.2z" fill="currentColor" stroke="none"/>',
   amazon: '<path d="M9 17.5V6.2l10-2.2v11.3"/><circle cx="6.6" cy="17.5" r="2.4"/><circle cx="16.6" cy="15.3" r="2.4"/>',
   apple: '<circle cx="12" cy="10" r="2.6"/><path d="M12 14.2v6.3"/><path d="M8.2 15.6a6.2 6.2 0 1 1 7.6 0"/><path d="M6 18.4a9.4 9.4 0 1 1 12 0"/>',
   linkedin: '<rect x="3" y="3" width="18" height="18" rx="3.5"/><path d="M8 10.5V17M8 7.3v.2M12 17v-6.5M12 13.3a2.8 2.8 0 0 1 5.5 0V17"/>',

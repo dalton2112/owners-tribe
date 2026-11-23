@@ -3,12 +3,14 @@ export const CONFIG = {
   // Channel and profile links. An empty link shows a "coming soon" message when clicked.
   links: {
     youtube: 'https://www.youtube.com/@TheOwnersTribe',
+    tiktok: 'https://www.tiktok.com/@the.owners.tribe',
     spotify: 'https://open.spotify.com/show/1zklAyb2n7dHnJ8e6zREcp',
     apple: 'https://podcasts.apple.com/us/podcast/the-owners-tribe/id6826900776',
-    iheart: 'https://www.iheart.com/podcast/269-the-owners-tribe-348452083/',
     amazon: `https://music.amazon.co.uk/podcasts/c19e58e9-f4dc-4056-a9a2-352c34766192/the-owner's-tribe`,
     instagram: 'https://www.instagram.com/theownerstribe/',
-    linkedin: 'https://www.linkedin.com/in/adam-bell-cpa-mba-421aa036a/',
+    iheart: 'https://www.iheart.com/podcast/269-the-owners-tribe-348452083/',
+    twitter: 'https://x.com/theownerstribe',
+    linkedin: 'https://www.linkedin.com/company/the-owner-s-tribe',
     facebook: 'https://www.facebook.com/profile.php?id=61595995987457'
   },
 
@@ -45,7 +47,7 @@ export const CONFIG = {
   formEndpoint: '',
 
   // Public contact email. This is a stand-in until the real address is set.
-  email: 'hello@theownerstribe.com',
+  email: 'info@theownerstribe.com',
 
   // Times offered in the built-in booking request form, and an optional time zone label.
   callTimes: ['9:00 AM', '10:30 AM', '1:00 PM', '2:30 PM', '4:00 PM'],

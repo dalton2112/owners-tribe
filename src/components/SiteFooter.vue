@@ -20,8 +20,19 @@
           <!-- <li><RouterLink :to="BOOK_CALL">Book a Strategy Call</RouterLink></li> -->
           <li><a href="https://calendly.com/adam-bell-acb-logistics" target="_blank" rel="noopener noreferrer">Book a Strategy Call</a></li>
           <li><RouterLink :to="{ name: 'courses' }">Courses</RouterLink></li>
-          <li><RouterLink :to="{ name: 'resources' }">Templates and tools</RouterLink></li>
+          <!-- <li><RouterLink :to="{ name: 'resources' }">Templates and tools</RouterLink></li> -->
           <li><a href="#join" @click.prevent="toJoin">Join The Tribe</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Listen</h3>
+        <ul>
+          <li v-for="key in PODCASTS" :key="key">
+            <a :href="platformUrl(key) || '#'" target="_blank" rel="noopener" @click="guardPlatformLink($event, key)">
+              <AppIcon :name="key" :size="18" />
+              <span>{{ PLATFORMS[key].name }}</span>
+            </a>
+          </li>
         </ul>
       </div>
       <div>
@@ -29,7 +40,8 @@
         <ul>
           <li v-for="key in SOCIALS" :key="key">
             <a :href="platformUrl(key) || '#'" target="_blank" rel="noopener" @click="guardPlatformLink($event, key)">
-              <AppIcon :name="key" :size="18" />{{ PLATFORMS[key].name }}
+              <AppIcon :name="key" :size="18" />
+              <span>{{ PLATFORMS[key].name }}</span>
             </a>
           </li>
         </ul>
@@ -52,7 +64,8 @@ import { platformUrl, guardPlatformLink } from '@/composables/usePlatforms';
 import { BOOK_CALL } from '@/router/links';
 import { prefersReducedMotion } from '@/utils/format';
 
-const SOCIALS = ['youtube', 'spotify', 'apple', 'iheart', 'amazon', 'instagram', 'linkedin', 'facebook'];
+const PODCASTS = ['youtube', 'spotify', 'apple', 'iheart', 'amazon'];
+const SOCIALS = ['instagram', 'tiktok', 'twitter', 'linkedin', 'facebook'];
 const year = new Date().getFullYear();
 
 function toJoin() {
@@ -67,7 +80,7 @@ function toJoin() {
   .footer-grid { grid-template-columns: 1fr 1fr; }
 }
 @media (min-width: 1000px) {
-  .footer-grid { grid-template-columns: 1.5fr 1fr 1fr 1fr; }
+  .footer-grid { grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr; }
 }
 .footer-tagline {
   font-family: var(--serif); font-style: italic; font-size: 1.32rem; line-height: 1.3; color: var(--cream); margin: 22px 0 12px; max-width: 22ch;
@@ -77,6 +90,7 @@ function toJoin() {
 .site-footer ul { list-style: none; padding: 0; margin: 0; }
 .site-footer li a { display: inline-flex; align-items: center; gap: 10px; color: #C9D3E0; text-decoration: none; padding: 6px 0; }
 .site-footer li a:hover { color: #FFFFFF; text-decoration: underline; text-underline-offset: 3px; }
+.site-footer li a span { min-width: 0; }
 .footer-bottom {
   display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px;
   margin-top: 48px; padding-top: 24px; border-top: 1px solid rgba(255, 255, 255, 0.1); font-size: 0.86rem;

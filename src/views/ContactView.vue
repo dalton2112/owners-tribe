@@ -50,7 +50,7 @@ import { CONFIG } from '@/config';
 import { PLATFORMS } from '@/content/platforms';
 import { platformUrl, guardPlatformLink } from '@/composables/usePlatforms';
 
-const SOCIALS = ['youtube', 'spotify', 'apple', 'iheart', 'amazon', 'instagram', 'linkedin', 'facebook'];
+const SOCIALS = ['youtube', 'spotify', 'apple', 'iheart', 'amazon', 'instagram', 'tiktok', 'twitter', 'linkedin', 'facebook'];
 </script>
 
 <style>
