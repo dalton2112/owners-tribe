@@ -79,7 +79,7 @@ import { showToast } from '@/composables/useUi';
 function guard(event, tool) {
   if (!tool.url) {
     event.preventDefault();
-    showToast(`${tool.name} link coming soon.`);
+    showToast(`${tool.name} (Link Coming Soon!).`);
   }
 }
 </script>

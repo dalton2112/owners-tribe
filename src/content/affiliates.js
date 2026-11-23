@@ -5,6 +5,8 @@ import westpacLogo from '@/assets/westpac.png';
 import thomasWhalenLogo from '@/assets/thomas-whalen.webp';
 import anneErtelSawaskyLogo from '@/assets/anne-ertel-sawasky.webp';
 import sanyuLubogoLogo from '@/assets/sanyu-lubogo.webp';
+import joeElginLogo from '@/assets/joe-elgin.webp';
+import kyleWickerLogo from '@/assets/kyle-wicker.webp';
 
 // Tools and books recommended on the Resources page.
 // Sample picks: replace them with the tools you actually use and your own affiliate links.
@@ -22,15 +24,17 @@ export const AFFILIATE_GROUPS = [
   { category: 'Strategic Partners', icon: 'layers', items: [
     { name: 'Thomas Whalen', image: thomasWhalenLogo, imageType: 'person', desc: 'Tax lawyer', url: 'https://business-advocates.com/' },
     { name: 'Anne Ertel-Sawasky', image: anneErtelSawaskyLogo, imageType: 'person', desc: 'CEO, ChFC, RICP, Attorney (WI)', url: 'https://quovadis-solutions.com/' },
-    { name: 'Sanyu Lubogo', image: sanyuLubogoLogo, imageType: 'person', desc: 'Founder', url: 'https://www.thelubogocreative.com/' }
+    { name: 'Sanyu Lubogo', image: sanyuLubogoLogo, imageType: 'person', desc: 'Founder', url: 'https://www.thelubogocreative.com/' },
+    { name: 'Joe Elgin', image: joeElginLogo, imageType: 'person', desc: 'Founder', url: 'https://mauitechsupport.com/' },
+    { name: 'Kyle Wicker', image: kyleWickerLogo, imageType: 'person', desc: 'Founder', url: 'https://www.middlecreekcapital.com/about-us' }
   ] },
   // { category: 'Podcasting and content', icon: 'mic', items: [
   //   { name: 'Riverside', desc: 'Studio-quality remote recording for podcasts and video.', url: '' },
   //   { name: 'Canva', desc: 'Easy design for social posts, slides, and marketing.', url: '' }
   // ] },
   { category: 'Dive Into My Library', icon: 'book', items: [
-    { name: 'Starting a Business the right way', by: 'Adam Bell', desc: 'A Field Guide to Building on Solid Ground', url: 'https://kdp.amazon.com/en_US/' },
-    { name: 'Scalling a Business without Losing Control', by: 'Adam Bell', desc: 'A Field Guide to Growing on Numbers You Can Trust', url: 'https://kdp.amazon.com/en_US/' },
-    { name: 'Selling a Business for what it\'s worth', by: 'Adam Bell', desc: 'A Field Guide to Preparing, Valuing, and Exiting Your Business', url: 'https://kdp.amazon.com/en_US/' }
+    { name: 'Starting a Business the right way', by: 'Adam Bell', desc: 'A Field Guide to Building on Solid Ground', url: 'https://a.co/d/0gkWvJAi' },
+    { name: 'Scalling a Business without Losing Control', by: 'Adam Bell', desc: 'A Field Guide to Growing on Numbers You Can Trust', url: 'https://a.co/d/0cdm3vKV' },
+    { name: 'Selling a Business for what it\'s worth', by: 'Adam Bell', desc: 'A Field Guide to Preparing, Valuing, and Exiting Your Business', url: '' }
   ] }
 ];

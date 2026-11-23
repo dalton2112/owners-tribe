@@ -8,6 +8,6 @@ export const platformUrl = (key) => CONFIG.links[key] || '';
 export function guardPlatformLink(event, key) {
   if (!platformUrl(key)) {
     event.preventDefault();
-    showToast(`${PLATFORMS[key].name} link coming soon.`);
+    showToast(`${PLATFORMS[key].name} Link Coming Soon!`);
   }
 }
